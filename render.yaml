@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ajaia-docs
+    runtime: docker
+    plan: free
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATABASE_PATH
+        value: /data/ajaia.db
+      - key: SESSION_SECURE
+        value: "true"
