@@ -23,8 +23,9 @@ Local app, after unzip: `npm install`, then `npm run dev`, then http://localhost
 Paste these after the steps below.
 
 ```
-DRIVE_FOLDER_URL=
-LIVE_URL=
+LOOM=https://www.loom.com/share/604f393b707c49d8b21131641f362e21
+DRIVE_FOLDER_URL=https://drive.google.com/file/d/1SAnG80O0l03wfY2c-CUe9xD8yIcBvUh-/view?usp=sharing
+GITHUB_REPO=https://github.com/mauwashere04/ajaia-docs
 ```
 
 The walkthrough URL goes in `WALKTHROUGH.txt`.
